@@ -1,7 +1,10 @@
-base_url = "https://YOUR_URL.TLD"
-title = "site title"
+title = "ZenPlus"
+author = "Aaron Chen"
 description = "YOUR_SITE_DESCRIPTION"
-author = "YOUR_NAME"
+
+# Deployment
+base_url = "https://chen1plus.github.io/blog"
+
 theme = "tabi"
 generate_feeds = true
 compile_sass = true
@@ -9,7 +12,6 @@ minify_html = true
 build_search_index = true
 default_language = "en"
 taxonomies = [{name = "tags", feed = true}]
-
 
 [search]
 # Whether to include the title of the page/section in the index.
@@ -39,13 +41,6 @@ smart_punctuation = true
 [extra]
 # Check out the documentation (or the comments below) to learn how to customise tabi:
 # https://welpo.github.io/tabi/blog/mastering-tabi-settings/
-
-# Search index format.
-# For Zola 0.17.X users only.
-# This MUST MATCH the setting in [search].index_format.
-# Example: If [search].index_format is "elasticlunr_javascript", set:
-# index_format = "elasticlunr_javascript"
-# index_format = ""
 
 # Use sans-serif font everywhere.
 # By default, the serif font is only used in articles.
