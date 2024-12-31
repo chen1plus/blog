@@ -1,22 +1,20 @@
-name: Test build
+name: Build
 
 on:
-  workflow_dispatch:
   pull_request:
     branches:
       - main
 
 jobs:
-  test:
-    name: Test Site Build
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: checkout
         uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Zola Build
+      - name: build
         uses: shalzz/zola-deploy-action@v0.19.2
         env:
           BUILD_ONLY: true
