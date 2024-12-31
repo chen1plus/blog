@@ -1,9 +1,9 @@
-name: Update tabi theme
+name: Update tabi
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 0 * * 1"  # Weekly on Mondays at 5 past midnight UTC
+    - cron: "0 0 1 * *"  # At 00:00 on day-of-month 1.
 
 jobs:
   update-tabi:
