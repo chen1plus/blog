@@ -11,7 +11,7 @@ Lmod is a modern environment module system widely used in HPC to manage software
 
 # Basics
 
-Modulefiles are Lua scripts that define the environment variables required to use a software package. You should learn the basic syntax of Lua first.
+Modulefiles are Lua scripts that define the environment variables required to use a software package. To get started, familiarize yourself with the basic syntax of Lua:
 
 ```lua
 -- This is a comment.
@@ -38,17 +38,19 @@ Senza tema d’infamia ti rispondo.
 ]]
 ```
 
-Lmod provides several functions to manage environment variables. The most commonly used functions are:
+Lmod provides several functions to manage environment variables. The most commonly used ones are:
 
 - `setenv`: sets an environment variable.
 - `prepend_path`: adds a path to the beginning of an environment variable.
 
-There are also functions to provide information about the module:
+Additionally, there are functions to provide metadata about the module:
 
 - `whatis`: provides a brief description.
-- `help`: provides detailed information.
+- `help`: offers detailed information.
 
 ## Example
+
+Here's a sample modulefile:
 
 ```lua
 local base = "/path/to/software"
