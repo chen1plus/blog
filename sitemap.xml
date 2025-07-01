@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://chen1plus.github.io/blog/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://chen1plus.github.io/blog/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/archive/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/blog/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/blog/lmod-modulefiles/</loc>
+        <lastmod>2025-01-02</lastmod>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/projects/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/projects/cool-project/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/tags/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/tags/hpc/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/tags/lmod/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/tags/meta/</loc>
+    </url>
+    <url>
+        <loc>https://chen1plus.github.io/blog/tags/modulefiles/</loc>
+    </url>
+</urlset>
